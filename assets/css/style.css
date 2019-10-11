@@ -1,6 +1,130 @@
 body{
 
-background: black;
+    
+   background-image:  url("../images/bg.png");
+    background-color: aqua;
 
+
+}
+
+div{
+
+    margin: 2px;
+
+}
+
+
+
+
+#title{
+
+    width: 320px;
+    height: 50px;
+    background: darkorange;
+    color: white;
+    font-size: 150%;
+    font: bold;
+
+
+}
+
+#rules{
+
+    width: 500px;
+    height: 500px;
+    background: beige;
+    font-size: 110%;
+
+    line-height: 50px;
+
+}
+
+#targetNumber{
+    width: 250px;
+    height: 99px;
+    background: greenyellow;
+    float: left;
+}
+
+
+#scoreCard{
+    
+    width: 75px;
+    height: 99px;
+    background: cyan;
+    line-height: 45px;
+    float: left;
+    font-size: 90%;
+    
+    
+    
+    
+}
+
+
+/* In the feedback could i have an alternative way of displaying these divs in example given's order? 
+I made an empty div just to clear the float above to get one row with wo divs side by side and then 4 divs side by side the next row
+I don't think this is the correct way of doing so. 
+*/
+
+#break{
+
+clear: both;
+
+}
+
+.button-wrap{
+  
+    float: left;
+    
+    }
+    
+
+#btn1,#btn2,#btn3, #btn4{
+
+
+border: solid black;
+width: 98px;
+height: 66px;
+margin: 2px;
+
+
+}
+
+#btn1:active,#btn2:active,#btn3:active, #btn4:active{
+
+    border: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#YourScore{
+    
+    clear: both;
+    
+    width: 250px;
+    height: 20px;
+    background: teal;
+    font-size: 100%;
+
+}
+
+#currentNumber{
+    
+    width: 250px;
+    height: 99px;
+    background: teal;
 
 }
