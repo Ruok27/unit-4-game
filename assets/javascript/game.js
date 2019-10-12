@@ -21,14 +21,7 @@ $("#btn4").click(addGreen);
 
 
 
-if (current == target) {
-   
-    $(document).win();
-}
 
-if (current > target) {
-    $(document).lose();
-}
 
 function win() {
 
@@ -68,6 +61,16 @@ function lose() {
 
 function addRed() {
 
+    if (current == target) {
+   
+        win();
+    }
+    
+    if (current > target) {
+        lose();
+    }
+
+
     current += redButton;
     $("#currentNumber").html(current);
 
@@ -75,17 +78,45 @@ function addRed() {
 
 function addBlue() {
 
+    if (current == target) {
+   
+        win();
+    }
+    
+    if (current > target) {
+        lose();
+    }
+
     current += blueButton;
     $("#currentNumber").html(current);
 
 }
 function addYellow() {
 
+    if (current == target) {
+   
+        win();
+    }
+    
+    if (current > target) {
+        lose();
+    }
+
     current += yellowButton;
     $("#currentNumber").html(current);
 
 }
 function addGreen() {
+
+
+    if (current == target) {
+   
+        win();
+    }
+    
+    if (current > target) {
+        lose();
+    }
 
     current += greenButton;
     $("#currentNumber").html(current);
