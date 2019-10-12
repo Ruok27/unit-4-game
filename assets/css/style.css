@@ -44,6 +44,8 @@ div{
     height: 99px;
     background: greenyellow;
     float: left;
+    color: black;
+    font-size: 600%;
 }
 
 
@@ -126,5 +128,5 @@ margin: 2px;
     width: 250px;
     height: 99px;
     background: teal;
-
+    font-size: 600%;
 }
